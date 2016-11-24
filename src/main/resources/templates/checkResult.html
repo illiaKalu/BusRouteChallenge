@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bus Route Challenge</title>
+</head>
+<body>
+
+Check Result : <br/>
+
+{ <br/>
+"dep_sid": <span th:text="${dep}"> </span>, <br/>
+"arr_sid": <span th:text="${arr}"> </span>, <br/>
+"direct_bus_route": <span th:text="${checkResult}"> </span> <br/>
+} <br/>
+
+<a href="../index.html" > check again with other values </a>
+
+</body>
+</html>
